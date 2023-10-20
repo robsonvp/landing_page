@@ -1,0 +1,106 @@
+/* Cabeçalho */
+header {
+    background-color: #a7d4ff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+/* Formulário */
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+/* Carousel */
+div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+
+  #carrossel {
+    transition: left 3s linear infinite;
+  }
+  
+
+  /* Reset de margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do container do carrossel */
+.carousel-container {
+    width: 80%; /* Largura desejada do carrossel */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+    overflow: hidden; /* Esconde imagens que ultrapassem o contêiner */
+    position: relative;
+}
+
+/* Estilo do carrossel */
+.carousel {
+    display: flex; /* Permite que as imagens fiquem lado a lado */
+    transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave */
+}
+
+/* Estilo das imagens no carrossel */
+.carousel img {
+    width: 100%; /* Preenche todo o espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos botões de navegação */
+.prev-button,
+.next-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+
+/* Botão anterior */
+.prev-button {
+    left: 10px;
+}
+
+
+/* Botão próximo */
+.next-button {
+    right: 10px;
+}
+
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+
+/* Rodapé */
+footer {
+    background-color: #a7d4ff;
+    color: #000000;
+    padding: 5px 0;
+}
+
+.rodape {
+    text-align: center;
+    padding: 30px;
+}

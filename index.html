@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title> Faesa - Landing Page </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="logo.webp" alt="Logo da Faesa">
+        <h1>Formulário Faesa</h1>
+    </header>
+
+    <!--Conteudo-->
+    <div class="carousel-container">
+        <button class="prev-button" onclick="prevSlide()">&#10094;</button>
+        <div class="carousel">
+            <img src="banner2.jpg" alt="Imagem 1">
+            <img src="banner3.jpg" alt="Imagem 2">
+            <img src="banner4.jpg" alt="Imagem 3">
+            <img src="banner5.jpg" alt="Imagem 4">
+            <img src="banner.webp" alt="Imagem 0">
+        </div>
+        <!-- Botão para ir para a imagem seguinte -->
+        <button class="next-button" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <!-- Script para controlar o carousel -->
+    <script src="script.js"></script>
+
+
+    <!-- Formulário para enviar os dados do usuário -->
+    <main>
+        <form class="formulario" method="post" action="form.php">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="tel" name="telefone" placeholder="Telefone">
+            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Enviar">
+            </form>
+      </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p class ="rodape">Feito por Robson</p>
+    </footer>
+
+
+</body>
+</html>
